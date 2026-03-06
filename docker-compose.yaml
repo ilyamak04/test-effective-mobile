@@ -3,8 +3,6 @@ services:
     build:
       context: ./backend
     container_name: backend
-    environment:
-      PORT: 8080
     expose:
       - "8080"
     restart: unless-stopped
